@@ -15,6 +15,6 @@ public class Offer_65 {
     }
 
     public static void main(String[] args) {
-        new Offer_65().add(15,1);
+        new Offer_65().add(15, 1);
     }
 }
