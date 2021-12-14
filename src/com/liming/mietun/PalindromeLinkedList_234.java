@@ -40,7 +40,7 @@ public class PalindromeLinkedList_234 {
         return true;
     }
 
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 

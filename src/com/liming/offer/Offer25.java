@@ -19,7 +19,7 @@ public class Offer25 {
         return reshead;
     }
 
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
