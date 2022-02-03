@@ -31,7 +31,6 @@ public class Hot_8 {
                     l++;
                 }
             }
-
         }
         return res;
     }
