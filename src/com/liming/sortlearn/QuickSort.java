@@ -20,7 +20,7 @@ public class QuickSort {
         int i = left;
         int j = right;
         int tmp = nums[left];
-        while (i != j) {
+        while (i < j) {
             while (i < j && nums[j] >= tmp) j--;
             while (i < j && nums[i] <= tmp) i++;
             int temp = nums[i];
@@ -28,9 +28,8 @@ public class QuickSort {
             nums[j] = temp;
         }
         // 走到这里说明i=j,需要把基准值与i或j交换位置。 这时基准值的左边都比他小，右边都比他大。
-        int temp = nums[i];
-        nums[i] = nums[left];
-        nums[left] = temp;
+        nums[left] = nums[i];
+        nums[i] = tmp;
         quickSort(nums, left, i - 1);
         quickSort(nums, i + 1, right);
     }
