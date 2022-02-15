@@ -22,4 +22,6 @@ public class MergeIntervals {
         }
         return Arrays.copyOf(res, index + 1);
     }
+
+
 }
