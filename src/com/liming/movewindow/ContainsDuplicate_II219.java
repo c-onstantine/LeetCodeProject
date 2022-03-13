@@ -7,7 +7,7 @@ import java.util.HashSet;
  * @date 2021-11-16 11:13
  * 219. 存在重复元素 II
  */
-public class ContainsDuplicate_II219 {
+public class ContainsDuplicate_II219{
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {

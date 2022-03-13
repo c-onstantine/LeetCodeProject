@@ -11,7 +11,6 @@ public class InsertSort {
         int[] nums = {130, 35, 109, 1};
         insertSort(nums);
         System.out.println("最终结果:" + Arrays.toString(nums));
-
     }
 
     private static void insertSort(int[] nums) {

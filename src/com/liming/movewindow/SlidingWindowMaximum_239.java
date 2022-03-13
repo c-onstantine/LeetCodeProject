@@ -9,7 +9,20 @@ import java.util.LinkedList;
  */
 public class SlidingWindowMaximum_239 {
     public static void main(String[] args) {
-        new SlidingWindowMaximum_239().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7},3);
+        //new SlidingWindowMaximum_239().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7},3);
+        //Scanner sc = new Scanner(System.in);
+        //String s = sc.nextLine();
+        //System.out.println(s.length());
+        //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        //BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
+        Integer a = 127;
+        Integer b = 127;
+        Integer c = new Integer(127);
+        Integer d = new Integer(127);
+        System.out.println(a==b);
+        System.out.println(c==d);
+        System.out.println(a.equals(b));
+        System.out.println(c.equals(d));
     }
 
     public int[] maxSlidingWindow(int[] nums, int k) {
