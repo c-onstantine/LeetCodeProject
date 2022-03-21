@@ -8,9 +8,16 @@ import java.util.Arrays;
  */
 public class InsertSort {
     public static void main(String[] args) {
-        int[] nums = {130, 35, 109, 1};
-        insertSort(nums);
-        System.out.println("最终结果:" + Arrays.toString(nums));
+        //int[] nums = {130, 35, 109, 1};
+        //insertSort(nums);
+        //System.out.println("最终结果:" + Arrays.toString(nums));
+        int i = 10;
+        int a = 1;
+        while (i > 0){
+            i--;
+            a = a++;
+        }
+        System.out.println(a);
     }
 
     private static void insertSort(int[] nums) {
