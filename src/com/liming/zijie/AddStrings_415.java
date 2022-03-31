@@ -24,4 +24,24 @@ public class AddStrings_415 {
         return sb.toString();
     }
 
+    //错误算法
+    //public String addStrings1(String num1,String num2){
+    //    int carry = 0;
+    //    int i = num1.length() - 1, j = num2.length() - 1;
+    //    String res = "";
+    //    while (i >= 0 || j >= 0 || carry != 0){
+    //        int x = i >= 0? num1.charAt(i) - '0' : 0;
+    //        int y = j >= 0? num2.charAt(j) - '0' : 0;
+    //        int tmp = x + y + carry;
+    //        res += '0' + tmp % 10;
+    //        carry = tmp / 10;
+    //        i--;
+    //        j--;
+    //    }
+    //    return new StringBuilder(res).reverse().toString();
+    //}
+
+    public static void main(String[] args) {
+        System.out.println(new AddStrings_415().addStrings("12", "99"));
+    }
 }

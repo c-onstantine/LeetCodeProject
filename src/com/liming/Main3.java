@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * @author ltf
  * @date 2022-03-14 20:16
+ * 消消乐题目
  */
 public class Main3 {
     /**

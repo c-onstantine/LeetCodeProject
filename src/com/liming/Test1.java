@@ -36,7 +36,9 @@ public class Test1 {
         new Test1().combinationSum2(new int[]{10,1,2,7,6,1,5},8);
     }
 
-
+    public static class Inner{
+        private int a = 0;
+    }
     //private List<List<Integer>> res = new ArrayList<>();
     //private List<Integer> path = new ArrayList<>();
 

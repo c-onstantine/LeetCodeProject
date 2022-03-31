@@ -24,7 +24,7 @@ public class SelectSort {
                     min = nums[j];
                 }
             }
-            if (index != i) { //最小值不是初始值的时候才交换 否则不用交换
+            if (index != i) { //最小值不是初始值的时候才交换 否则不用交换  一趟下来 选择最小值
                 nums[index] = nums[i];
                 nums[i] = min;
             }
