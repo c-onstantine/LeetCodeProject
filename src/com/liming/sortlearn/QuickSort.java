@@ -8,7 +8,7 @@ import java.util.Random;
  * @date 2021-02-15 9:27
  */
 public class QuickSort {
-    private static Random random = new Random();
+    private  static Random random = new Random();
 
     public static void main(String[] args) {
         int[] nums = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
