@@ -6,6 +6,7 @@ import java.util.Random;
 /**
  * @author ltf
  * @date 2021-02-15 9:27
+ * 不稳定  快排
  */
 public class QuickSort {
     private  static Random random = new Random();

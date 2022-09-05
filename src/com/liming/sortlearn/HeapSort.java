@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * @author ltf
  * @date 2022-03-30 9:16
+ * 堆排序 不稳定
  */
 public class HeapSort {
     public static void main(String[] args) {

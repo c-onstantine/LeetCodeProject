@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * @author ltf
  * @date 2021-02-08 14:49
+ * 不稳定
  */
 public class SelectSort {
     public static void main(String[] args) {

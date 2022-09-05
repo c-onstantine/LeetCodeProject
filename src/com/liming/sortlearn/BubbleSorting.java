@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * @author ltf
  * @date 2021-02-08 12:32
+ * 冒泡 稳定排序
  */
 public class BubbleSorting {
     public static void main(String[] args) {

@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * @author ltf
  * @date 2021-02-22 15:17
+ * 稳定
  */
 public class MergeSort {
     public static void main(String[] args) {

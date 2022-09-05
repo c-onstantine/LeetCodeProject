@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * @author ltf
  * @date 2021-02-09 9:25
+ * 稳定
  */
 public class InsertSort {
     public static void main(String[] args) {
